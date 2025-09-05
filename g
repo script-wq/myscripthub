@@ -37,23 +37,9 @@ local Window = Rayfield:CreateWindow({
  })
 
  local Button = scriptsTab:CreateButton({
-    Name = "Rivals",
-    Callback = function()
-        loadstring(game:HttpGet("https://soluna-script.vercel.app/main.lua",true))()
-    end,
- })
-
- local Button = scriptsTab:CreateButton({
     Name = "Arsenal",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Sempiller/dinamic/refs/heads/main/main.lua"))()
-    end,
- })
-
- local Button = scriptsTab:CreateButton({
-    Name = "Grow A Garden",
-    Callback = function()
-        loadstring(game:HttpGet(('https://raw.githubusercontent.com/depthso/Grow-a-Garden/refs/heads/main/autofarm.lua')))()
     end,
  })
 
@@ -152,5 +138,12 @@ local Button = scriptsTab:CreateButton({
    Name = "Bridge Duels",
    Callback = function()
       loadstring(game:HttpGet("https://raw.githubusercontent.com/AfgMS/LimeForRoblox/refs/heads/main/Loader.lua"))()
+   end,
+})
+
+local Button = scriptsTab:CreateButton({
+   Name = "Telekinesis Script",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/randomstring0/Qwerty/refs/heads/main/qwerty1.lua"))()
    end,
 })
