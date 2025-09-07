@@ -67,7 +67,7 @@ local Window = Rayfield:CreateWindow({
  local Button = scriptsTab:CreateButton({
    Name = "Steal a Brainrot",
    Callback = function()
-      loadstring(game:HttpGet("https://rawscripts.net/raw/Steal-a-Brainrot-Auto-Farm-51829"))()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/tienkhanh1/spicy/main/Chilli.lua"))()
    end,
 })
 
